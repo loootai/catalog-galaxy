@@ -1,0 +1,2406 @@
+{
+ "snapshotDate": "2026-10-08",
+ "revision": "101880",
+ "builtAt": "2026-10-08T16:56:01.085Z",
+ "totals": {
+  "categories": 16,
+  "platforms": 230,
+  "stars": 277,
+  "jobs": 2071,
+  "providers": 96
+ },
+ "categories": [
+  {
+   "id": "social",
+   "title": "Social data",
+   "platformCount": 41,
+   "jobCount": 995,
+   "providerCount": 16,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.00012,
+   "platforms": [
+    {
+     "id": "douyin",
+     "title": "Douyin",
+     "jobCount": 226,
+     "providerCount": 2,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tiktok",
+     "title": "TikTok",
+     "jobCount": 108,
+     "providerCount": 7,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": 0.000539
+    },
+    {
+     "id": "instagram",
+     "title": "Instagram",
+     "jobCount": 101,
+     "providerCount": 5,
+     "cheapestPerCall": 0.00144,
+     "cheapestPerResult": 0.00012
+    },
+    {
+     "id": "linkedin",
+     "title": "LinkedIn",
+     "jobCount": 41,
+     "providerCount": 11,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.00036
+    },
+    {
+     "id": "youtube",
+     "title": "YouTube",
+     "jobCount": 55,
+     "providerCount": 7,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": 0.0015
+    },
+    {
+     "id": "weibo",
+     "title": "Weibo",
+     "jobCount": 56,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "reddit",
+     "title": "Reddit",
+     "jobCount": 37,
+     "providerCount": 3,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "zhihu",
+     "title": "Zhihu",
+     "jobCount": 41,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "bilibili",
+     "title": "Bilibili",
+     "jobCount": 40,
+     "providerCount": 1,
+     "cheapestPerCall": 0.006,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "kuaishou",
+     "title": "Kuaishou",
+     "jobCount": 38,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "xiaohongshu",
+     "title": "Xiaohongshu",
+     "jobCount": 33,
+     "providerCount": 2,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "twitter",
+     "title": "X (Twitter)",
+     "jobCount": 36,
+     "providerCount": 3,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": 0.00018
+    },
+    {
+     "id": "x",
+     "title": "X",
+     "jobCount": 19,
+     "providerCount": 6,
+     "cheapestPerCall": 0.00022,
+     "cheapestPerResult": 0.00018
+    },
+    {
+     "id": "facebook",
+     "title": "Facebook",
+     "jobCount": 18,
+     "providerCount": 2,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "lemon8",
+     "title": "Lemon8",
+     "jobCount": 16,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "pipixia",
+     "title": "Pipixia",
+     "jobCount": 16,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "threads",
+     "title": "Threads",
+     "jobCount": 16,
+     "providerCount": 2,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "wechat-channels",
+     "title": "WeChat Channels",
+     "jobCount": 12,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "telegram",
+     "title": "Telegram",
+     "jobCount": 10,
+     "providerCount": 2,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "wechat-mp",
+     "title": "WeChat official accounts",
+     "jobCount": 9,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "spotify",
+     "title": "Spotify",
+     "jobCount": 7,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "toutiao",
+     "title": "Toutiao",
+     "jobCount": 7,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "xigua",
+     "title": "Xigua Video",
+     "jobCount": 7,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "producthunt",
+     "title": "Product Hunt",
+     "jobCount": 6,
+     "providerCount": 1,
+     "cheapestPerCall": 0.003598,
+     "cheapestPerResult": 0.00018
+    },
+    {
+     "id": "applemusic",
+     "title": "Apple Music",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "pinterest",
+     "title": "Pinterest",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "rumble",
+     "title": "Rumble",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "twitch",
+     "title": "Twitch",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "bluesky",
+     "title": "Bluesky",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "kwai",
+     "title": "Kwai",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "snapchat",
+     "title": "Snapchat",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "soundcloud",
+     "title": "SoundCloud",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "truthsocial",
+     "title": "Truth Social",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "wechat-search",
+     "title": "WeChat search",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "china-social",
+     "title": "Chinese social search",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.029739,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "kick",
+     "title": "Kick",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "komi",
+     "title": "Komi",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "linkbio",
+     "title": "Linkbio",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "linkme",
+     "title": "Linkme",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "linktree",
+     "title": "Linktree",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "pillar",
+     "title": "Pillar",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "enrichment",
+   "title": "Enrichment",
+   "platformCount": 54,
+   "jobCount": 231,
+   "providerCount": 46,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.000037,
+   "platforms": [
+    {
+     "id": "people",
+     "title": "People & contact data",
+     "jobCount": 49,
+     "providerCount": 32,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.0001
+    },
+    {
+     "id": "company",
+     "title": "Company data",
+     "jobCount": 40,
+     "providerCount": 31,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.00025
+    },
+    {
+     "id": "web",
+     "title": "Web data",
+     "jobCount": 26,
+     "providerCount": 13,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.000145
+    },
+    {
+     "id": "person",
+     "title": "People profiles",
+     "jobCount": 12,
+     "providerCount": 3,
+     "cheapestPerCall": 0.005,
+     "cheapestPerResult": 0.05
+    },
+    {
+     "id": "brand",
+     "title": "Brand data",
+     "jobCount": 11,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "companies",
+     "title": "Company databases",
+     "jobCount": 9,
+     "providerCount": 4,
+     "cheapestPerCall": 0.0019,
+     "cheapestPerResult": 0.0981
+    },
+    {
+     "id": "signals",
+     "title": "Company & people signals",
+     "jobCount": 8,
+     "providerCount": 2,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.01
+    },
+    {
+     "id": "social",
+     "title": "Social profiles",
+     "jobCount": 6,
+     "providerCount": 2,
+     "cheapestPerCall": 0.01633,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "discover",
+     "title": "Company discovery",
+     "jobCount": 6,
+     "providerCount": 1,
+     "cheapestPerCall": null,
+     "cheapestPerResult": 0.01
+    },
+    {
+     "id": "technologies",
+     "title": "Technographics",
+     "jobCount": 5,
+     "providerCount": 3,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.0001
+    },
+    {
+     "id": "employeepost",
+     "title": "Employee posts",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "jobbase",
+     "title": "Job postings",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "jobs",
+     "title": "Jobs",
+     "jobCount": 1,
+     "providerCount": 3,
+     "cheapestPerCall": 0.004,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "organizations",
+     "title": "Organizations",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.03,
+     "cheapestPerResult": 0.01
+    },
+    {
+     "id": "agenticsearch",
+     "title": "Agenticsearch",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.392,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "autocomplete",
+     "title": "Autocomplete",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "contact",
+     "title": "Contacts",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0639,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "crunchbase",
+     "title": "Crunchbase",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": null,
+     "cheapestPerResult": 0.001439
+    },
+    {
+     "id": "csvenrichment",
+     "title": "Csvenrichment",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.108,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "jobmultisource",
+     "title": "Job postings (multi-source)",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "marketmap",
+     "title": "Marketmap",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.1,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "minnesota",
+     "title": "Minnesota company registry",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.017985,
+     "cheapestPerResult": 0.000037
+    },
+    {
+     "id": "prompts",
+     "title": "Prompts",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0019,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "school",
+     "title": "School",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "acra",
+     "title": "Singapore company registry",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.017985,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "activity",
+     "title": "Activity",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "api",
+     "title": "Api",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "bulkenrichcompany",
+     "title": "Bulkenrichcompany",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.039,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "bulkenrichperson",
+     "title": "Bulkenrichperson",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.039,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "ctu3",
+     "title": "Ctu3",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0495,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "domainstatus",
+     "title": "Domainstatus",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "domainsuggestions",
+     "title": "Domainsuggestions",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "emailsources",
+     "title": "Emailsources",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "extendedtechnologydetections",
+     "title": "Extendedtechnologydetections",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "findsocialprofiles",
+     "title": "Findsocialprofiles",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "geocoder",
+     "title": "Geocoder",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "industry",
+     "title": "Industry",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.05,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "jobopenings",
+     "title": "Jobopenings",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "kw2",
+     "title": "Kw2",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0495,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "list",
+     "title": "List",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.05,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "lists",
+     "title": "Lists",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "lists12",
+     "title": "Lists12",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0495,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "location",
+     "title": "Locations",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "newsevents",
+     "title": "Newsevents",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "products",
+     "title": "Products",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "projects",
+     "title": "Projects",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": null,
+     "cheapestPerResult": 0.0001
+    },
+    {
+     "id": "redirect1",
+     "title": "Redirect1",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0495,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "rv4",
+     "title": "Rv4",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0495,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "scoring",
+     "title": "Scoring",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "scrapejob",
+     "title": "Scrapejob",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.05,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "searchsuggestions",
+     "title": "Searchsuggestions",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "secfilings",
+     "title": "SEC filings",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "teams",
+     "title": "Teams",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.02,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "trustv2",
+     "title": "Trustv2",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0495,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "search",
+   "title": "Search & SERP",
+   "platformCount": 12,
+   "jobCount": 211,
+   "providerCount": 15,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.00036,
+   "platforms": [
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 82,
+     "providerCount": 8,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.0015
+    },
+    {
+     "id": "dataforseolabs",
+     "title": "SEO keyword & domain research",
+     "jobCount": 45,
+     "providerCount": 1,
+     "cheapestPerCall": 0.012,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "serp",
+     "title": "Search engine results",
+     "jobCount": 39,
+     "providerCount": 1,
+     "cheapestPerCall": 0.002,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "backlinks",
+     "title": "Backlinks & domain metrics",
+     "jobCount": 20,
+     "providerCount": 1,
+     "cheapestPerCall": 0.024,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "keywords",
+     "title": "Keyword & trend data",
+     "jobCount": 5,
+     "providerCount": 4,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "keywordsdata",
+     "title": "Keyword volume & trends",
+     "jobCount": 6,
+     "providerCount": 1,
+     "cheapestPerCall": 0.09,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "analytics",
+     "title": "Google Analytics",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "onpage",
+     "title": "On-page SEO audits",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000125,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "search-console",
+     "title": "Google Search Console",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "google",
+     "title": "Google",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.03597,
+     "cheapestPerResult": 0.00036
+    },
+    {
+     "id": "res",
+     "title": "Web search results",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "task",
+     "title": "Browser tasks",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.05,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "ads",
+   "title": "Ads intelligence",
+   "platformCount": 14,
+   "jobCount": 197,
+   "providerCount": 13,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.00036,
+   "platforms": [
+    {
+     "id": "douyin",
+     "title": "Douyin",
+     "jobCount": 73,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "bilibili",
+     "title": "Bilibili",
+     "jobCount": 45,
+     "providerCount": 1,
+     "cheapestPerCall": 0.006,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "ads",
+     "title": "Ad libraries",
+     "jobCount": 5,
+     "providerCount": 7,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": 0.00075
+    },
+    {
+     "id": "xiaohongshu",
+     "title": "Xiaohongshu",
+     "jobCount": 20,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tiktok",
+     "title": "TikTok",
+     "jobCount": 19,
+     "providerCount": 3,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": 0.000899
+    },
+    {
+     "id": "google",
+     "title": "Google",
+     "jobCount": 11,
+     "providerCount": 5,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "creators",
+     "title": "Creators & influencers",
+     "jobCount": 8,
+     "providerCount": 2,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 8,
+     "providerCount": 1,
+     "cheapestPerCall": 0.004,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "facebook",
+     "title": "Facebook",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "serp",
+     "title": "Search engine results",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.002,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "linkedin",
+     "title": "LinkedIn",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tiktokaddetails",
+     "title": "Tiktokaddetails",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00642,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tiktoksearch",
+     "title": "Tiktoksearch",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00642,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "twitter",
+     "title": "X (Twitter)",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": null,
+     "cheapestPerResult": 0.00036
+    }
+   ]
+  },
+  {
+   "id": "markets",
+   "title": "Market data",
+   "platformCount": 54,
+   "jobCount": 118,
+   "providerCount": 6,
+   "cheapestPerCall": 0.000033,
+   "cheapestPerResult": null,
+   "platforms": [
+    {
+     "id": "mp",
+     "title": "Market data marketplace",
+     "jobCount": 14,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "stocks",
+     "title": "Stock market data",
+     "jobCount": 6,
+     "providerCount": 3,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "exchanges",
+     "title": "Stock exchanges",
+     "jobCount": 6,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tickers",
+     "title": "Tickers",
+     "jobCount": 7,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "creditrisk",
+     "title": "Credit risk",
+     "jobCount": 7,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "serp",
+     "title": "Search engine results",
+     "jobCount": 7,
+     "providerCount": 1,
+     "cheapestPerCall": 0.002,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "cryptocurrency",
+     "title": "Cryptocurrency",
+     "jobCount": 6,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000193,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "calendar",
+     "title": "Calendar",
+     "jobCount": 5,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "realestate",
+     "title": "Real estate data",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "sanctions",
+     "title": "Sanctions lists",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "ust",
+     "title": "US Treasury rates",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "exchangedetails",
+     "title": "Exchangedetails",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "bulkfundamentals",
+     "title": "Bulkfundamentals",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.003333,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "cboe",
+     "title": "Cboe",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "commodities",
+     "title": "Commodities",
+     "jobCount": 2,
+     "providerCount": 2,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "eod",
+     "title": "Eod",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "exchange",
+     "title": "Crypto exchanges",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000193,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "fundamentals",
+     "title": "Fundamentals",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000333,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "rates",
+     "title": "Rates",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "splits",
+     "title": "Splits",
+     "jobCount": 1,
+     "providerCount": 2,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "commoditieshistory",
+     "title": "Commoditieshistory",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "companyfacts",
+     "title": "Companyfacts",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "companyname",
+     "title": "Companyname",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "concept",
+     "title": "Concept",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "currencies",
+     "title": "Currencies",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "economicevents",
+     "title": "Economicevents",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "eodbulklastday",
+     "title": "Eodbulklastday",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.003333,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "exchangeslist",
+     "title": "Exchangeslist",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "exchangesymbollist",
+     "title": "Exchangesymbollist",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "fiat",
+     "title": "Fiat",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000193,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "frames",
+     "title": "Frames",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "globalmetrics",
+     "title": "Globalmetrics",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000193,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "google",
+     "title": "Google",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.003598,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "historicalmarketcap",
+     "title": "Historicalmarketcap",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "history",
+     "title": "History",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "idmapping",
+     "title": "Idmapping",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "indexinfo",
+     "title": "Indexinfo",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "insidertransactions",
+     "title": "Insidertransactions",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "intraday",
+     "title": "Intraday",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "logo",
+     "title": "Logo",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "logosvg",
+     "title": "Logosvg",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "macroindicator",
+     "title": "Macroindicator",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "newswordweights",
+     "title": "Newswordweights",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "screener",
+     "title": "Screener",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.004,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "sentiments",
+     "title": "Sentiments",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "spreads",
+     "title": "Spreads",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "symbolchangehistory",
+     "title": "Symbolchangehistory",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "technical",
+     "title": "Technical",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tickerslist",
+     "title": "Tickerslist",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "ticks",
+     "title": "Ticks",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "timezones",
+     "title": "Timezones",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000899,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tools",
+     "title": "Tools",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000193,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "usquotedelayed",
+     "title": "Usquotedelayed",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "scrapers",
+   "title": "Scrapers",
+   "platformCount": 16,
+   "jobCount": 43,
+   "providerCount": 23,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.000333,
+   "platforms": [
+    {
+     "id": "web",
+     "title": "Web data",
+     "jobCount": 15,
+     "providerCount": 18,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.000333
+    },
+    {
+     "id": "task",
+     "title": "Browser tasks",
+     "jobCount": 7,
+     "providerCount": 2,
+     "cheapestPerCall": 0.05,
+     "cheapestPerResult": 0.016
+    },
+    {
+     "id": "crawl",
+     "title": "Crawling",
+     "jobCount": 2,
+     "providerCount": 3,
+     "cheapestPerCall": 0.0025,
+     "cheapestPerResult": 0.0008
+    },
+    {
+     "id": "extract",
+     "title": "Extraction",
+     "jobCount": 2,
+     "providerCount": 3,
+     "cheapestPerCall": 0.02,
+     "cheapestPerResult": 0.001
+    },
+    {
+     "id": "nytimes",
+     "title": "The New York Times",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.003598,
+     "cheapestPerResult": 0.00072
+    },
+    {
+     "id": "scrape",
+     "title": "Scraping",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": 0.001
+    },
+    {
+     "id": "techcrunch",
+     "title": "TechCrunch",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.003598,
+     "cheapestPerResult": 0.00036
+    },
+    {
+     "id": "theverge",
+     "title": "The Verge",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.03597,
+     "cheapestPerResult": 0.003598
+    },
+    {
+     "id": "webparser",
+     "title": "Web page parsing",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.003598,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "actors",
+     "title": "Scraping actors",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.06,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "api",
+     "title": "Api",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "fetch",
+     "title": "Fetch",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "files",
+     "title": "File conversion",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.008,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "guardian",
+     "title": "The Guardian",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.03597,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "parse",
+     "title": "Parse",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "pdf",
+     "title": "Pdf",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.005,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "apps",
+   "title": "Connected apps",
+   "platformCount": 8,
+   "jobCount": 54,
+   "providerCount": 13,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": null,
+   "platforms": [
+    {
+     "id": "outreach",
+     "title": "Email outreach",
+     "jobCount": 12,
+     "providerCount": 4,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "crm",
+     "title": "CRM",
+     "jobCount": 13,
+     "providerCount": 3,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "calendar",
+     "title": "Calendar",
+     "jobCount": 5,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "drive",
+     "title": "Google Drive",
+     "jobCount": 5,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "gmail",
+     "title": "Gmail",
+     "jobCount": 5,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "sheets",
+     "title": "Google Sheets",
+     "jobCount": 5,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "workplace",
+     "title": "Notion",
+     "jobCount": 5,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "messaging",
+     "title": "Slack",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "title": "Other",
+   "platformCount": 27,
+   "jobCount": 49,
+   "providerCount": 18,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.000006,
+   "platforms": [
+    {
+     "id": "account",
+     "title": "Account",
+     "jobCount": 1,
+     "providerCount": 9,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "api",
+     "title": "Api",
+     "jobCount": 9,
+     "providerCount": 3,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "geo",
+     "title": "Geo",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "investor",
+     "title": "Investor",
+     "jobCount": 4,
+     "providerCount": 1,
+     "cheapestPerCall": 0.005,
+     "cheapestPerResult": 0.05
+    },
+    {
+     "id": "funding",
+     "title": "Funding",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.05,
+     "cheapestPerResult": 0.05
+    },
+    {
+     "id": "finance",
+     "title": "Finance",
+     "jobCount": 2,
+     "providerCount": 2,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "llm",
+     "title": "Llm",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.000006
+    },
+    {
+     "id": "local",
+     "title": "Local",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.00894
+    },
+    {
+     "id": "phone",
+     "title": "Phone",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.015,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "school",
+     "title": "School",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0264,
+     "cheapestPerResult": 0.0792
+    },
+    {
+     "id": "travel",
+     "title": "Travel",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "address",
+     "title": "Address",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "apple",
+     "title": "Apple",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "baidu",
+     "title": "Baidu",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "duckduckgo",
+     "title": "Duckduckgo",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "ebay",
+     "title": "Ebay",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "homedepot",
+     "title": "Homedepot",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "industries",
+     "title": "Industries",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "industry",
+     "title": "Industry",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "jobs",
+     "title": "Jobs",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0528,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "lists",
+     "title": "Lists",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0098,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "naver",
+     "title": "Naver",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "positions",
+     "title": "Positions",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "speak",
+     "title": "Speak",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": null,
+     "cheapestPerResult": 0.00003
+    },
+    {
+     "id": "walmart",
+     "title": "Walmart",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "yandex",
+     "title": "Yandex",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "yelp",
+     "title": "Yelp",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.025,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "maps",
+   "title": "Maps & local",
+   "platformCount": 17,
+   "jobCount": 45,
+   "providerCount": 10,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.000539,
+   "platforms": [
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 19,
+     "providerCount": 1,
+     "cheapestPerCall": 0.004,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "maps",
+     "title": "Maps & local",
+     "jobCount": 5,
+     "providerCount": 7,
+     "cheapestPerCall": 0.000167,
+     "cheapestPerResult": 0.000539
+    },
+    {
+     "id": "location",
+     "title": "Locations",
+     "jobCount": 3,
+     "providerCount": 2,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "web",
+     "title": "Web data",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "google",
+     "title": "Google",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.017985,
+     "cheapestPerResult": 0.000899
+    },
+    {
+     "id": "serp",
+     "title": "Search engine results",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.002,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "tools",
+     "title": "Tools",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "city",
+     "title": "City",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "country",
+     "title": "Country",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "hostname",
+     "title": "Hostname",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "ip",
+     "title": "Ip",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.28,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "loc",
+     "title": "Loc",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "org",
+     "title": "Org",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "postal",
+     "title": "Postal",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "region",
+     "title": "Region",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "root",
+     "title": "Root",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "timezone",
+     "title": "Timezone",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0005,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "research",
+   "title": "Web search & research",
+   "platformCount": 7,
+   "jobCount": 21,
+   "providerCount": 24,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.00025,
+   "platforms": [
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 4,
+     "providerCount": 17,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": 0.00025
+    },
+    {
+     "id": "web",
+     "title": "Web data",
+     "jobCount": 4,
+     "providerCount": 11,
+     "cheapestPerCall": 0.00099,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "news",
+     "title": "News",
+     "jobCount": 5,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "agent",
+     "title": "Research agents",
+     "jobCount": 3,
+     "providerCount": 2,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "google",
+     "title": "Google",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.03597,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "serp",
+     "title": "Search engine results",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.002,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "guardian",
+     "title": "The Guardian",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.07194,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "ecommerce",
+   "title": "E-commerce",
+   "platformCount": 5,
+   "jobCount": 31,
+   "providerCount": 7,
+   "cheapestPerCall": 0.0015,
+   "cheapestPerResult": 0.0012,
+   "platforms": [
+    {
+     "id": "commerce",
+     "title": "Other marketplaces",
+     "jobCount": 7,
+     "providerCount": 2,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 16,
+     "providerCount": 1,
+     "cheapestPerCall": 0.004,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "amazon",
+     "title": "Amazon",
+     "jobCount": 6,
+     "providerCount": 5,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": 0.0015
+    },
+    {
+     "id": "aliexpress",
+     "title": "AliExpress",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": null,
+     "cheapestPerResult": 0.0012
+    },
+    {
+     "id": "merchant",
+     "title": "Google Shopping",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.0015,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "genai",
+   "title": "Generative AI",
+   "platformCount": 8,
+   "jobCount": 21,
+   "providerCount": 12,
+   "cheapestPerCall": 0.000033,
+   "cheapestPerResult": 0.000072,
+   "platforms": [
+    {
+     "id": "media",
+     "title": "Media generation",
+     "jobCount": 7,
+     "providerCount": 7,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": 0.000072
+    },
+    {
+     "id": "utilities",
+     "title": "Utilities",
+     "jobCount": 4,
+     "providerCount": 2,
+     "cheapestPerCall": 0.0002,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "judge",
+     "title": "Judge",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00029,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 3,
+     "providerCount": 2,
+     "cheapestPerCall": 0.000033,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "serp",
+     "title": "Search engine results",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.002,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "youtube",
+     "title": "YouTube",
+     "jobCount": 2,
+     "providerCount": 2,
+     "cheapestPerCall": 0.003598,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "bilibili",
+     "title": "Bilibili",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.006,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "detectagegender",
+     "title": "Detectagegender",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "reviews",
+   "title": "Reviews & apps",
+   "platformCount": 9,
+   "jobCount": 25,
+   "providerCount": 9,
+   "cheapestPerCall": 0.001,
+   "cheapestPerResult": 0.000539,
+   "platforms": [
+    {
+     "id": "search",
+     "title": "Search engines",
+     "jobCount": 11,
+     "providerCount": 1,
+     "cheapestPerCall": 0.004,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "maps",
+     "title": "Maps & local",
+     "jobCount": 1,
+     "providerCount": 4,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": 0.000899
+    },
+    {
+     "id": "commerce",
+     "title": "Other marketplaces",
+     "jobCount": 2,
+     "providerCount": 2,
+     "cheapestPerCall": 0.00188,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "google",
+     "title": "Google",
+     "jobCount": 3,
+     "providerCount": 1,
+     "cheapestPerCall": 0.03597,
+     "cheapestPerResult": 0.000539
+    },
+    {
+     "id": "bbb",
+     "title": "Better Business Bureau",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.017985,
+     "cheapestPerResult": 0.0012
+    },
+    {
+     "id": "tiktok",
+     "title": "TikTok",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "xiaohongshu",
+     "title": "Xiaohongshu",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "amazon",
+     "title": "Amazon",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": null,
+     "cheapestPerResult": 0.0015
+    },
+    {
+     "id": "reviews",
+     "title": "Reviews & app stores",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.004,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "developer",
+   "title": "Developer data",
+   "platformCount": 2,
+   "jobCount": 20,
+   "providerCount": 3,
+   "cheapestPerCall": 0,
+   "cheapestPerResult": 0.00018,
+   "platforms": [
+    {
+     "id": "github",
+     "title": "GitHub",
+     "jobCount": 19,
+     "providerCount": 3,
+     "cheapestPerCall": 0.0001,
+     "cheapestPerResult": 0.00018
+    },
+    {
+     "id": "developer",
+     "title": "Developer",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "utilities",
+   "title": "Utilities",
+   "platformCount": 2,
+   "jobCount": 9,
+   "providerCount": 2,
+   "cheapestPerCall": 0.001,
+   "cheapestPerResult": null,
+   "platforms": [
+    {
+     "id": "files",
+     "title": "File conversion",
+     "jobCount": 7,
+     "providerCount": 1,
+     "cheapestPerCall": 0.008,
+     "cheapestPerResult": null
+    },
+    {
+     "id": "temp-mail",
+     "title": "Temporary mailboxes",
+     "jobCount": 2,
+     "providerCount": 1,
+     "cheapestPerCall": 0.001,
+     "cheapestPerResult": null
+    }
+   ]
+  },
+  {
+   "id": "market-data",
+   "title": "Other",
+   "platformCount": 1,
+   "jobCount": 1,
+   "providerCount": 1,
+   "cheapestPerCall": 0.01,
+   "cheapestPerResult": null,
+   "platforms": [
+    {
+     "id": "secfilings",
+     "title": "SEC filings",
+     "jobCount": 1,
+     "providerCount": 1,
+     "cheapestPerCall": 0.01,
+     "cheapestPerResult": null
+    }
+   ]
+  }
+ ]
+}
